@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             if eachView is UILabel {
                 // downcast as UILabel
                 let currentLabel = eachView as! UILabel
-                currentLabel.textColor = UIColor.lightGray
+                currentLabel.textColor = UIColor.yellow
             }
         }
         
